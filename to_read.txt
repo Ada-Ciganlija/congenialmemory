@@ -1,0 +1,5 @@
+Search terms:
+- sentiment analysis
+- tokenization
+- text corpus (labeled)
+- Principal Component Analysis (PCA) and K-means analysis (clustering)
