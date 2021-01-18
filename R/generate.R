@@ -23,5 +23,17 @@ make_sonnet <- function(ref_text = NULL) {
 #      - get rhyme scheme
 #      - get meter for each line
 
+  text_words <-
+    strsplit(ref_text, split = " ") %>%
+    unlist() %>%
+    remove_literal_character(char = ".") %>%
+    remove_literal_character(char = ",") %>%
+    tolower()
+
+}
+
+remove_literal_character <- function(x, char) {
+
+  gsub(pattern = char, replacement = "", x, fixed = TRUE)
 }
 
