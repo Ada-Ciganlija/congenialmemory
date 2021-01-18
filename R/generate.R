@@ -19,6 +19,9 @@ make_sonnet <- function(ref_text = NULL) {
 #       - get word origin corpus (labelled with first usage years)
 #       - get word types, classifications (multiple labels per word)
 
+#TODO: Get details of how to construct a Pushkin sonnet
+#      - get rhyme scheme
+#      - get meter for each line
 
 }
 
